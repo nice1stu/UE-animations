@@ -1,0 +1,21 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/Game Programming/301-ue-bp-gamerules-nice1stu/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset",
+				"D:/Game Programming/301-ue-bp-gamerules-nice1stu/Content/Blueprints/BP_Statue.uasset",
+				"D:/Game Programming/301-ue-bp-gamerules-nice1stu/Content/Blueprints/BP_StatueSpawner.uasset",
+				"D:/Game Programming/301-ue-bp-gamerules-nice1stu/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/F7/VRZTO2IVCO68W1BNNINSC0.uasset",
+				"D:/Game Programming/301-ue-bp-gamerules-nice1stu/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/YO/NG2R9BPZVA7ZDN0Z4VSTG6.uasset",
+				"D:/Game Programming/301-ue-bp-gamerules-nice1stu/Content/UI/BPW_HUD.uasset",
+				"D:/Game Programming/301-ue-bp-gamerules-nice1stu/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
+				"D:/Game Programming/301-ue-bp-gamerules-nice1stu/Content/UI/BPW_ReadySetGo.uasset",
+				"D:/Game Programming/301-ue-bp-gamerules-nice1stu/Content/UI/BPW_YouLose.uasset",
+				"D:/Game Programming/301-ue-bp-gamerules-nice1stu/Content/UI/BPW_YouWin.uasset"
+			]
+		}
+	]
+}
