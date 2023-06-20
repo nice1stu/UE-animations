@@ -4033,3 +4033,517 @@ LFootTongue
 [2023.06.20-03.28.24:287][336]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Animations/Run_To_Stop_Mirrored_Auto3
 [2023.06.20-03.28.24:287][336]LogSavePackage: Moving 'D:/Game Programming/302-specialization-track-nice1stu/TestAnimation/Saved/Run_To_Stop_Mirrored_Auto37E809E394B85591E60620D91D794760D.tmp' to 'D:/Game Programming/302-specialization-track-nice1stu/TestAnimation/Saved/Autosaves/Game/Animations/Run_To_Stop_Mirrored_Auto3.uasset'
 [2023.06.20-03.28.24:288][336]LogFileHelpers: Auto-saving content packages took 0.020
+[2023.06.20-03.31.53:857][  8]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.20-03.31.53:861][  8]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.06.20-03.31.53:862][  8]LogWorldPartition: Display: GenerateStreaming started...
+[2023.06.20-03.31.53:862][  8]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.06.20-03.31.53:862][  8]LogWorldPartition: Display: GetPartitionedActors took 6 us (total: 136 us)
+[2023.06.20-03.31.53:862][  8]LogWorldPartition: Display: GenerateStreaming took 130 us (total: 2 ms)
+[2023.06.20-03.31.53:862][  8]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.20-03.31.53:862][  8]PIE: New page: PIE session: ThirdPersonMap (20 juni 2023 07:31:53)
+[2023.06.20-03.31.53:862][  8]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.06.20-03.31.53:866][  8]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003511s)
+[2023.06.20-03.31.53:866][  8]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003537s)
+[2023.06.20-03.31.53:866][  8]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.06.20-03.31.53:866][  8]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.20-03.31.53:866][  8]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.06.20-03.31.53:867][  8]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.06.20-03.31.53:867][  8]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.06.20-03.31.53:867][  8]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.06.20-03.31.53:867][  8]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2023.06.20-03.31.53:867][  8]LogWorldPartition: Display: WorldPartition initialize took 883 us (total: 441 ms)
+[2023.06.20-03.31.53:867][  8]LogPlayLevel: PIE: World Init took: (0.001776s)
+[2023.06.20-03.31.53:885][  8]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.06.20-03.31.53:886][  8]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2023.06.20-03.31.53:886][  8]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.20-03.31.53:886][  8]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.20-03.31.53:886][  8]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.20-03.31.53:886][  8]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.20-03.31.53:886][  8]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.20-03.31.53:886][  8]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.20-03.31.53:886][  8]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.20-03.31.53:886][  8]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.20-03.31.53:886][  8]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.20-03.31.53:886][  8]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.20-03.31.53:886][  8]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.20-03.31.53:888][  8]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.20-03.31.53:919][  8]LogAudioMixer: Display: Using Audio Hardware Device Högtalare (Realtek(R) Audio)
+[2023.06.20-03.31.53:919][  8]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.20-03.31.53:919][  8]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.20-03.31.53:919][  8]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.20-03.31.53:919][  8]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2023.06.20-03.31.53:919][  8]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2023.06.20-03.31.53:921][  8]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2023.06.20-03.31.53:921][  8]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2023.06.20-03.31.53:921][  8]LogInit: FAudioDevice initialized with ID 19.
+[2023.06.20-03.31.53:921][  8]LogAudio: Display: Audio Device (ID: 19) registered with world 'ThirdPersonMap'.
+[2023.06.20-03.31.53:921][  8]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2023.06.20-03.31.53:923][  8]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.06.20-03.31.53:925][  8]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2023.06.20-05.31.53
+[2023.06.20-03.31.53:925][  8]LogWorld: Bringing up level for play took: 0.001469
+[2023.06.20-03.31.53:927][  8]LogOnline: OSS: Created online subsystem instance for: :Context_46
+[2023.06.20-03.31.53:928][  8]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.31.53:929][  8]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.31.53:929][  8]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.31.53:930][  8]PIE: Server logged in
+[2023.06.20-03.31.53:931][  8]PIE: Play in editor total start time 0,07 seconds.
+[2023.06.20-03.31.53:949][  8]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.31.53:949][  8]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.31.53:949][  8]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.31.53:950][  8]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.31.53:950][  8]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.31.53:950][  8]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.31.53:951][  8]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.31.53:951][  8]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.31.53:951][  8]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.31.53:952][  8]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.31.53:952][  8]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.31.53:952][  8]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.31.53:953][  8]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.31.53:953][  8]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.31.53:953][  8]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.31.53:954][  8]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.31.53:954][  8]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.31.53:954][  8]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.31.53:955][  8]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.31.53:955][  8]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.31.53:956][  8]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.31.53:966][  9]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.31.53:966][  9]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.31.53:967][  9]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.31.53:967][  9]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.31.53:967][  9]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.31.53:968][  9]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.31.53:968][  9]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.31.53:968][  9]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.31.53:969][  9]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.31.53:969][  9]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.31.53:969][  9]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.31.53:970][  9]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.31.53:970][  9]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.31.53:970][  9]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.31.53:971][  9]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.31.53:971][  9]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.31.53:971][  9]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.31.53:972][  9]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.31.53:972][  9]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.31.53:973][  9]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.31.53:973][  9]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.31.58:846][299]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.31.58:847][299]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.31.58:848][299]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.31.58:848][299]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2944.701 Y=2139.534 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.31.58:931][304]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.31.58:931][304]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.03:830][598]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.03:831][598]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.03:913][603]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.04:886][661]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.08:585][883]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.08:818][897]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.08:819][897]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=119.572 Y=970.095 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.32.08:902][902]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.08:902][902]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=162.694 Y=912.323 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.32.08:903][902]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.32.08:903][902]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.08:904][902]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2901.852 Y=656.975 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.32.09:002][908]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.32.09:002][908]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.13:568][182]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.13:985][207]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.13:986][207]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1477.248 Y=1510.181 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.32.14:068][212]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.32.14:069][212]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.15:935][324]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.19:052][511]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.19:053][511]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2644.856 Y=2792.782 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.32.19:136][516]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.32.19:136][516]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.19:136][516]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1024.049 Y=1770.382 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.32.19:235][522]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.32.19:235][522]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.19:486][537]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.20:769][614]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.23:335][768]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.23:735][792]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.26:519][959]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.26:519][959]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2273.415 Y=2659.752 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.32.26:602][964]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.32.26:602][964]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.26:603][964]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=837.275 Y=2069.860 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.32.26:703][970]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.32.26:703][970]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.27:719][ 31]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.30:686][209]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.31:703][270]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.34:669][448]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.35:619][505]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.35:620][505]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2760.765 Y=2045.689 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.32.35:685][509]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.35:703][510]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.32.35:703][510]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.36:602][564]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.37:502][618]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.39:586][743]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.40:486][797]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.42:570][922]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.42:570][922]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2331.095 Y=2839.567 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.32.42:653][927]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.32.42:653][927]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.42:654][927]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=123.875 Y=2077.367 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.32.42:753][933]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.32.42:753][933]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.42:754][933]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2990.753 Y=2450.731 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.32.42:853][939]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.32.42:853][939]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.43:469][976]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.43:470][976]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2210.242 Y=567.067 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.32.43:553][981]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.32.43:553][981]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.44:552][ 41]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.45:836][118]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.47:536][220]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.48:819][297]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.50:519][399]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.51:802][476]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.51:803][476]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2919.431 Y=564.046 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.32.51:886][481]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.32.51:886][481]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.51:887][481]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=17.762 Y=584.555 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.32.51:987][487]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.32.51:987][487]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.53:503][578]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.54:969][666]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.56:486][757]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.57:953][845]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.57:954][845]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=303.690 Y=2642.357 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.32.58:037][850]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.32.58:037][850]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.32.59:469][936]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.01:020][ 29]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.01:020][ 29]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1098.483 Y=1266.552 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.01:103][ 34]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.01:103][ 34]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.02:453][115]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.04:086][213]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.04:087][213]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=758.080 Y=1660.515 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.04:170][218]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.04:170][218]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.04:636][246]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.05:923][323]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.07:623][425]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.08:907][502]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.08:907][502]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2456.893 Y=2693.261 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.08:991][507]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.08:991][507]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.08:991][507]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=45.412 Y=337.629 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.09:091][513]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.09:091][513]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.09:307][526]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.09:307][526]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1190.222 Y=1624.259 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.09:391][531]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.09:391][531]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.09:391][531]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=841.029 Y=2240.702 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.09:491][537]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.09:491][537]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.09:492][537]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2971.252 Y=2852.110 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.09:590][543]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.09:590][543]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.09:591][543]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1310.617 Y=777.004 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.09:691][549]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.09:691][549]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.11:673][668]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.11:674][668]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=798.547 Y=2841.398 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.11:757][673]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.11:757][673]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.11:758][673]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2292.459 Y=2889.831 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.11:857][679]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.11:857][679]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.11:858][679]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=79.928 Y=2161.232 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.11:957][685]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.11:957][685]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.11:958][685]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2065.310 Y=699.915 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.12:057][691]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.12:057][691]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.12:057][691]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2284.127 Y=2580.648 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.12:073][692]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.12:157][697]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.12:157][697]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.14:057][811]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.14:140][816]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.16:040][930]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.16:124][935]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.18:023][ 49]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.18:107][ 54]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.20:007][168]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.20:007][168]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1558.458 Y=2159.493 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.20:090][173]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.20:092][173]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.20:092][173]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.20:092][173]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2426.954 Y=2823.728 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.20:191][179]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.20:191][179]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.20:191][179]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=10.254 Y=941.621 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.20:291][185]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.20:291][185]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.20:291][185]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1706.870 Y=2735.011 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.20:391][191]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.20:391][191]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.20:391][191]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2576.098 Y=2687.585 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.20:491][197]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.20:491][197]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.20:492][197]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=114.536 Y=2652.153 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.20:591][203]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.20:591][203]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.20:592][203]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2174.810 Y=526.417 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.20:691][209]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.20:691][209]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.21:974][286]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.21:975][286]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=31.404 Y=1507.343 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.22:058][291]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.22:058][291]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.22:674][328]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.24:040][410]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.24:657][447]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.24:658][447]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=125.340 Y=2995.486 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.24:741][452]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.24:741][452]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.24:742][452]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2909.543 Y=2353.682 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.24:841][458]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.24:841][458]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.24:842][458]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2084.536 Y=2933.595 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.24:941][464]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.24:941][464]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.24:942][464]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=466.842 Y=3111.121 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.25:041][470]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.25:041][470]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.25:042][470]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2888.852 Y=2195.657 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.25:141][476]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.25:141][476]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.26:024][529]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.26:025][529]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1652.486 Y=2561.422 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.26:108][534]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.26:108][534]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.26:109][534]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=131.382 Y=844.389 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.26:208][540]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.26:208][540]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.27:124][595]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.27:124][595]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=138.890 Y=1567.495 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.27:208][600]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.27:208][600]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.28:190][659]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.29:191][719]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.29:191][719]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1425.153 Y=1650.719 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.29:274][724]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.29:274][724]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.29:275][724]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2220.496 Y=765.651 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.29:374][730]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.29:374][730]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.29:375][730]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2286.508 Y=2595.572 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.29:474][736]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.29:474][736]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.29:475][736]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1930.723 Y=2608.390 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.29:574][742]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.29:574][742]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.29:575][742]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1016.358 Y=2099.707 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.29:675][748]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.29:675][748]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.29:675][748]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2936.644 Y=2236.491 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.29:724][751]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.29:775][754]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.29:775][754]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.29:776][754]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=66.195 Y=2347.365 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.29:875][760]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.29:875][760]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.29:875][760]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2874.294 Y=766.018 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.29:974][766]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.29:974][766]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.31:707][870]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.31:708][870]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=862.361 Y=2038.090 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.31:791][875]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.31:791][875]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.31:957][885]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.33:775][994]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.33:941][  4]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.33:942][  4]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2106.052 Y=2712.580 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.34:025][  9]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.34:025][  9]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.34:026][  9]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2982.055 Y=860.411 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.34:125][ 15]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.34:125][ 15]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.35:525][ 99]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.35:758][113]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.37:508][218]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.37:509][218]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1711.631 Y=747.523 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.37:592][223]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.37:592][223]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.37:742][232]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.38:908][302]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.38:908][302]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1848.598 Y=2556.752 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.38:992][307]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.38:992][307]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.39:725][351]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.40:975][426]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.41:708][470]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.41:709][470]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2996.429 Y=2053.197 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.41:792][475]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.41:792][475]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.41:792][475]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=928.282 Y=1105.322 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.41:892][481]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.41:892][481]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.42:591][523]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.42:592][523]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2389.599 Y=1459.001 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.42:674][528]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.42:674][528]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.42:959][545]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.43:658][587]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.43:941][604]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.43:942][604]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2102.298 Y=629.508 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.44:025][609]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.44:025][609]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.44:642][646]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.45:009][668]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.45:009][668]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=136.509 Y=2381.698 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.45:092][673]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.45:092][673]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.45:625][705]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.46:075][732]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.46:608][764]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.46:609][764]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2975.921 Y=1165.108 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.46:692][769]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.46:692][769]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.47:058][791]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.47:675][828]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.48:041][850]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.48:659][887]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.49:025][909]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.49:025][909]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=445.051 Y=2667.443 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.49:108][914]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.49:108][914]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.49:641][946]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.50:092][973]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.50:625][  5]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.50:625][  5]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1270.974 Y=1453.233 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.50:709][ 10]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.50:709][ 10]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.51:075][ 32]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.51:076][ 32]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1507.736 Y=1633.048 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.51:158][ 37]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.51:159][ 37]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.51:691][ 69]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.52:142][ 96]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.52:675][128]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.52:675][128]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2343.547 Y=739.375 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.52:758][133]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.52:758][133]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.53:125][155]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.53:126][155]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1555.071 Y=2143.104 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.53:209][160]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.53:209][160]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.53:742][192]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.53:743][192]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1343.577 Y=2272.472 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.53:826][197]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.53:826][197]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.53:827][197]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=57.222 Y=2653.710 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.53:926][203]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.53:926][203]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.53:927][203]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2915.861 Y=1363.143 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.54:025][209]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.54:025][209]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.54:026][209]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2055.605 Y=2766.964 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.54:126][215]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.54:126][215]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.54:192][219]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.55:108][274]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.55:175][278]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.56:092][333]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.56:159][337]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.57:075][392]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.57:076][392]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1680.960 Y=855.467 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.57:142][396]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.57:159][397]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.57:159][397]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.57:159][397]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1287.912 Y=1800.137 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.57:259][403]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.57:259][403]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.58:125][455]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.58:242][462]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.58:243][462]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1111.026 Y=1496.265 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.58:325][467]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.58:325][467]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.59:109][514]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.59:109][514]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2860.927 Y=924.592 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.59:192][519]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.59:192][519]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.59:193][519]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=104.007 Y=654.595 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.59:292][525]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.59:292][525]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.59:293][525]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2034.638 Y=2003.574 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.33.59:308][526]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.33.59:393][531]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.33.59:393][531]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.34.00:292][585]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.34.00:293][585]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=852.931 Y=2592.459 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.34.00:375][590]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.34.00:376][590]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.34.00:376][590]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.34.00:377][590]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1618.519 Y=2869.048 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.34.00:475][596]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.34.00:476][596]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.34.01:359][649]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.34.01:359][649]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2587.085 Y=2648.674 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.34.01:442][654]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.34.01:442][654]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.34.01:459][655]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.34.02:425][713]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.34.02:442][714]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.34.02:443][714]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1553.148 Y=2157.295 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.34.02:526][719]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.34.02:526][719]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.34.02:527][719]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2981.414 Y=787.991 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.34.02:626][725]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.34.02:626][725]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.34.03:408][772]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.34.03:409][772]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=882.412 Y=2930.848 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.34.03:492][777]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.34.03:492][777]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.34.03:493][777]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2920.621 Y=1559.255 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.34.03:593][783]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.34.03:593][783]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.34.03:593][783]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1680.319 Y=722.803 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.34.03:608][784]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.34.03:692][789]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.34.03:692][789]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.34.04:592][843]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.34.04:592][843]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2887.112 Y=3085.852 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.34.04:675][848]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.34.04:677][848]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.34.04:677][848]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.34.05:658][907]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.34.05:659][907]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.34.06:642][966]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.34.06:643][966]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.34.07:629][ 25]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.34.07:630][ 25]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.34.08:613][ 84]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.34.08:613][ 84]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1365.184 Y=2084.509 Z=55.000] for [BP_Statue_C]
+[2023.06.20-03.34.08:613][ 84]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.34.08:696][ 89]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.20-03.34.08:696][ 89]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.34.09:595][143]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.34.09:679][148]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.20-03.34.10:584][200]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.20-03.34.10:585][200]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.06.20-03.34.10:585][200]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.06.20-03.34.10:585][200]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.20-03.34.10:585][200]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.06.20-03.34.10:588][200]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.20-03.34.10:592][200]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.20-03.34.10:607][200]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.20-03.34.10:607][200]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2023.06.20-03.34.10:607][200]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.06.20-03.34.10:609][200]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.06.20-03.34.10:642][200]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2023.06.20-03.34.10:667][200]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.20-03.34.10:677][201]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2023.06.20-03.34.10:680][201]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
