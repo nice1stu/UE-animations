@@ -5536,3 +5536,163 @@ Make sure 'BP_ThirdPersonGameMode_C' has been compiled for  Get Mesh
 [2023.06.21-02.05.15:408][767]LogFileHelpers: InternalPromptForCheckoutAndSave took 52 ms (total: 979 ms)
 [2023.06.21-02.05.15:413][767]AssetCheck: New page: Asset Save: BP_ThirdPersonGameMode
 [2023.06.21-02.05.15:413][767]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.BP_ThirdPersonGameMode
+[2023.06.21-02.05.45:263][149]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.06.21-02.05.45:269][149]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.027
+[2023.06.21-02.05.45:269][149]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2023.06.21-02.05.45:324][149]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2023.06.21-02.05.45:324][149]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2023.06.21-02.05.45:338][149]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto8
+[2023.06.21-02.05.45:338][149]LogSavePackage: Moving 'D:/Game Programming/302-specialization-track-nice1stu/TestAnimation/Saved/BP_ThirdPersonCharacter_Auto85FBC0EFB4FAAE0B8A4336D8B51E7EC8A.tmp' to 'D:/Game Programming/302-specialization-track-nice1stu/TestAnimation/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto8.uasset'
+[2023.06.21-02.05.45:339][149]LogFileHelpers: Auto-saving content packages took 0.070
+[2023.06.21-02.05.49:361][215]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.21-02.05.49:365][215]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.06.21-02.05.49:366][215]LogWorldPartition: Display: GenerateStreaming started...
+[2023.06.21-02.05.49:366][215]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.06.21-02.05.49:366][215]LogWorldPartition: Display: GetPartitionedActors took 6 us (total: 163 us)
+[2023.06.21-02.05.49:367][215]LogWorldPartition: Display: GenerateStreaming took 144 us (total: 3 ms)
+[2023.06.21-02.05.49:367][215]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.21-02.05.49:367][215]PIE: New page: PIE session: ThirdPersonMap (21 juni 2023 06:05:49)
+[2023.06.21-02.05.49:367][215]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.06.21-02.05.49:370][215]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003517s)
+[2023.06.21-02.05.49:371][215]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003543s)
+[2023.06.21-02.05.49:371][215]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.06.21-02.05.49:371][215]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.21-02.05.49:371][215]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.06.21-02.05.49:371][215]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.06.21-02.05.49:371][215]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.06.21-02.05.49:371][215]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.06.21-02.05.49:372][215]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2023.06.21-02.05.49:372][215]LogWorldPartition: Display: WorldPartition initialize took 901 us (total: 619 ms)
+[2023.06.21-02.05.49:372][215]LogPlayLevel: PIE: World Init took: (0.001823s)
+[2023.06.21-02.05.49:388][215]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.06.21-02.05.49:390][215]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2023.06.21-02.05.49:390][215]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.21-02.05.49:390][215]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.21-02.05.49:390][215]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.21-02.05.49:390][215]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.21-02.05.49:390][215]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.21-02.05.49:390][215]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.21-02.05.49:390][215]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.21-02.05.49:390][215]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.21-02.05.49:391][215]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.21-02.05.49:391][215]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.21-02.05.49:391][215]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.21-02.05.49:392][215]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.21-02.05.49:416][215]LogAudioMixer: Display: Using Audio Hardware Device Hörlurar (Realtek(R) Audio)
+[2023.06.21-02.05.49:417][215]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.21-02.05.49:417][215]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.21-02.05.49:417][215]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.21-02.05.49:418][215]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2023.06.21-02.05.49:418][215]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2023.06.21-02.05.49:419][215]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2023.06.21-02.05.49:419][215]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2023.06.21-02.05.49:419][215]LogInit: FAudioDevice initialized with ID 25.
+[2023.06.21-02.05.49:419][215]LogAudio: Display: Audio Device (ID: 25) registered with world 'ThirdPersonMap'.
+[2023.06.21-02.05.49:419][215]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 25
+[2023.06.21-02.05.49:421][215]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.06.21-02.05.49:423][215]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2023.06.21-04.05.49
+[2023.06.21-02.05.49:423][215]LogWorld: Bringing up level for play took: 0.001469
+[2023.06.21-02.05.49:425][215]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2023.06.21-02.05.49:426][215]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.21-02.05.49:427][215]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.21-02.05.49:427][215]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.21-02.05.49:428][215]PIE: Server logged in
+[2023.06.21-02.05.49:429][215]PIE: Play in editor total start time 0,064 seconds.
+[2023.06.21-02.05.49:444][215]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.05.49:444][215]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.05.49:444][215]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.05.49:445][215]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.05.49:445][215]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.05.49:445][215]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.05.49:446][215]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.05.49:446][215]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.05.49:446][215]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.05.49:447][215]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.05.49:447][215]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.05.49:447][215]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.05.49:447][215]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.05.49:448][215]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.05.49:448][215]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.05.49:448][215]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.05.49:449][215]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.05.49:449][215]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.05.49:449][215]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.05.49:450][215]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.05.49:450][215]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.05.49:458][216]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.05.49:458][216]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.05.49:459][216]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.05.49:459][216]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.05.49:459][216]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.05.49:460][216]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.05.49:460][216]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.05.49:460][216]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.05.49:461][216]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.05.49:461][216]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.05.49:461][216]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.05.49:461][216]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.05.49:462][216]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.05.49:462][216]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.05.49:462][216]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.05.49:463][216]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.05.49:463][216]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.05.49:463][216]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.05.49:464][216]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.05.49:464][216]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.05.49:464][216]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.05.54:349][506]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.21-02.05.54:350][506]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1114.139 Y=1127.479 Z=55.000] for [BP_Statue_C]
+[2023.06.21-02.05.54:350][506]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.21-02.05.54:351][506]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.21-02.05.54:351][506]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1207.617 Y=1222.239 Z=55.000] for [BP_Statue_C]
+[2023.06.21-02.05.54:433][511]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.21-02.05.54:433][511]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.21-02.05.54:434][511]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1604.694 Y=2749.934 Z=55.000] for [BP_Statue_C]
+[2023.06.21-02.05.54:533][517]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.21-02.05.54:533][517]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.21-02.05.59:332][805]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.21-02.05.59:516][816]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.21-02.06.04:316][104]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.21-02.06.04:317][104]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2935.453 Y=1397.568 Z=55.000] for [BP_Statue_C]
+[2023.06.21-02.06.04:400][109]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.21-02.06.04:400][109]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.21-02.06.04:401][109]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2209.326 Y=2926.179 Z=55.000] for [BP_Statue_C]
+[2023.06.21-02.06.04:499][115]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.21-02.06.04:500][115]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.21-02.06.04:501][115]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.21-02.06.09:483][414]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.21-02.06.09:484][414]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.21-02.06.09:484][414]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2993.133 Y=1124.732 Z=55.000] for [BP_Statue_C]
+[2023.06.21-02.06.09:566][419]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.21-02.06.09:566][419]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.21-02.06.14:466][713]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.21-02.06.14:550][718]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.21-02.06.19:449][ 12]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.21-02.06.19:450][ 12]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1384.228 Y=2313.398 Z=55.000] for [BP_Statue_C]
+[2023.06.21-02.06.19:533][ 17]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.21-02.06.19:534][ 17]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.21-02.06.19:534][ 17]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.21-02.06.24:517][316]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.21-02.06.24:518][316]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.21-02.06.29:500][615]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.21-02.06.29:501][615]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2872.097 Y=1958.345 Z=55.000] for [BP_Statue_C]
+[2023.06.21-02.06.29:501][615]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.21-02.06.29:501][615]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2877.773 Y=1480.792 Z=55.000] for [BP_Statue_C]
+[2023.06.21-02.06.29:584][620]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Fail to spawn
+[2023.06.21-02.06.29:584][620]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.21-02.06.34:569][919]LogBlueprintUserMessages: [BP_StatueSpawner_C_UAID_88A4C25E6F84748901_1576445247] Spawn Statue +1
+[2023.06.21-02.06.38:570][156]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.21-02.06.38:570][156]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.06.21-02.06.38:570][156]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.06.21-02.06.38:570][156]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.21-02.06.38:570][156]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.06.21-02.06.38:574][156]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.21-02.06.38:578][156]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.21-02.06.38:599][156]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.21-02.06.38:599][156]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 25
+[2023.06.21-02.06.38:599][156]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2023.06.21-02.06.38:601][156]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2023.06.21-02.06.38:619][156]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2023.06.21-02.06.38:644][156]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.21-02.06.38:654][157]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2023.06.21-02.06.38:658][157]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
