@@ -10,9 +10,11 @@ G (Pass): Create an animation sequence for a character or object using Unreal's 
 VG (Distinction): Your animation should demonstrate interaction with the environment or another character, e.g. by using Animation Montages.  
 
 Let's Go (again) !  
+  
 ![LetsGo](https://github.com/forsbergsskola-se/302-specialization-track-nice1stu/assets/112468923/5bd56274-5723-4bb9-b0f0-a082af2e09c7)
 
 Using pre-rigged character and animations downloaded from Mixamo, replaced the Unreal Manniquin with new mesh. Then created Animation Blueprint to enable character to switch between animations.  
+  
 ![BP_Locomotion](https://github.com/forsbergsskola-se/302-specialization-track-nice1stu/assets/112468923/32a5a7c6-ca1a-4b96-b34d-9644cfd5c332)  
 
 Made use of BlendSpace to enable smoother transition between Idle <-> Walk <-> Run.  
